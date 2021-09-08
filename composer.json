@@ -1,10 +1,13 @@
 {
-    "type": "project",
+    "name": "jbenedetti/versioner",
+    "description": "An automation tool to set version number, based on git flow",
+    "version": "0.1.0",
+    "type": "library",
     "license": "proprietary",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2.5",
+        "php": ">=8.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/console": "5.3.*",
